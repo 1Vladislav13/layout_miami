@@ -2,5 +2,10 @@
   font-weight: 700px;
   font-size: 36px;
   line-height: 36px;
-  color: $c-white;
+  color: #fff;
+
+  &--secondary {
+    color: #1B2129;
+    font-size: 32px;
+  }
 }

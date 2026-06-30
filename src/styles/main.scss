@@ -1,11 +1,15 @@
 @import 'utils';
-@import 'fonts';
 @import 'typography';
+@import 'fonts';
 @import './blocks/header';
 @import './blocks/logo';
 @import './blocks/nav';
 @import './blocks/title';
+@import './blocks/main';
+@import './blocks/section';
+@import './blocks/recommended';
 
 body {
-  background: $c-white;
+  background-color: $bg-white;
+  font-family: Manrope, sans-serif;
 }
