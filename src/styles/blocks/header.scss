@@ -1,0 +1,12 @@
+.header {
+  min-height: 100vh;
+  background-image: url(/src/images/header-bg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 0 20px 40px;
+}

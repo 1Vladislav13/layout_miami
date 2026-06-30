@@ -1,7 +1,11 @@
 @import 'utils';
 @import 'fonts';
 @import 'typography';
+@import './blocks/header';
+@import './blocks/logo';
+@import './blocks/nav';
+@import './blocks/title';
 
 body {
-  background: $c-gray;
+  background: $c-white;
 }
