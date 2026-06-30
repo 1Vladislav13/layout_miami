@@ -9,8 +9,9 @@
 @import './blocks/section';
 @import './blocks/recommended';
 @import './blocks/devices';
+@import './blocks/button';
 
 body {
-  background-color: $bg-white;
+  background-color: $bg-color;
   font-family: Manrope, sans-serif;
 }
