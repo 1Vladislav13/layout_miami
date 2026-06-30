@@ -1,0 +1,23 @@
+.heritage {
+  background-color: #fcfaef;
+  &__img {
+    height: 200px;
+    width: 100%;
+  }
+
+  &__content {
+    padding: 48px 20px;
+  }
+
+  &__title{
+    margin-bottom: 24px;
+  }
+
+  &__text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 140%;
+    font-family: 'Manrope';
+    letter-spacing: 0.15px;
+  }
+}
