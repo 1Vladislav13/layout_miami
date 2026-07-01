@@ -1,0 +1,33 @@
+.menu {
+  box-sizing: border-box;
+  padding: 0 20px 20px;
+  min-height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+
+  &__constacts {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+  }
+
+  &__phone {
+    font-family: Manrope, sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 140%;
+    letter-spacing: 2px;
+    color: #1b2129;
+  }
+
+  &__phone-link {
+    font-family: Manrope, sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #1b2129;
+    text-underline-offset: 4px;
+  }
+}
