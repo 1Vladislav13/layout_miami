@@ -7,9 +7,9 @@
   }
 
   &__img {
-    margin-bottom: 24px;
     width: 280px;
     height: 280px;
+    margin: 0 auto 24px;
   }
 
   &__title {
@@ -30,7 +30,7 @@
   &__price {
     font-weight: 700;
     font-size: 16px;
-    color: #1B2129;
-    font-family: 'Manrope', sans-serif;
+    color: #1b2129;
+    font-family: Manrope, sans-serif;
   }
 }
