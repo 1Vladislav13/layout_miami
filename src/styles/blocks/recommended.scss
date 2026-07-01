@@ -1,9 +1,11 @@
 .recommended {
-  display: flex;
-  flex-direction: column;
-
-  &:not(:last-child) {
-    padding-bottom: 40px;
+  padding-bottom: 96px;
+  &__article {
+    display: flex;
+    flex-direction: column;
+    &:not(:last-child) {
+      padding-bottom: 40px;
+    }
   }
 
   &__img {

@@ -2,6 +2,7 @@
   display: flex;
   flex-direction: column;
   gap: 24px;
+  padding-top: 48px;
 
   &__item {
     display: flex;
@@ -11,7 +12,7 @@
 
   &__label {
     color: #9393a3;
-    font-family: 'Manrope', sans-serif;
+    font-family: Manrope, sans-serif;
     font-weight: 400;
     font-size: 14px;
     line-height: 140%;
@@ -19,7 +20,7 @@
   }
 
   &__link {
-    font-family: 'Manrope', sans-serif;
+    font-family: Manrope, sans-serif;
     font-weight: 400;
     font-size: 16px;
     line-height: 140%;
