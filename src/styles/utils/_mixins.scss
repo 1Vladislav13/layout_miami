@@ -16,3 +16,9 @@
   white-space: nowrap;
   border: 0;
 }
+
+@mixin for-dekstop() {
+  @media (min-width: 1020px) {
+    @content;
+  }
+}
