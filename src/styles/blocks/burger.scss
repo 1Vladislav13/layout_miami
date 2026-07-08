@@ -10,6 +10,11 @@
 
     background-image: url(/src/images/menu.svg);
     background-size: cover;
+
+    @include for-dekstop {
+      width: 23px;
+      height: 32px;
+    }
   }
 
   &::after {
@@ -20,6 +25,11 @@
 
     background-image: url(/src/images/menu_hover.svg);
     background-size: cover;
+
+    @include for-dekstop {
+      width: 23px;
+      height: 32px;
+    }
   }
 
   &:hover {

@@ -17,6 +17,10 @@
     margin-bottom: 24px;
     grid-column: 1 / 3;
 
+    @include for-tablet {
+      grid-column: span 3;
+    }
+
     @include for-dekstop {
       grid-column: span 6;
     }
@@ -32,6 +36,10 @@
 
     @include for-dekstop {
       grid-column: -1 / 8;
+    }
+    
+    @include for-tablet {
+      grid-column: -1 / 4;
     }
   }
 }
