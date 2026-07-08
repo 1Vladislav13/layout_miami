@@ -29,5 +29,6 @@
     text-decoration-color: transparent;
     text-underline-offset: 4px;
 
+    @include hover(text-decoration-color, $text-color);
   }
 }
