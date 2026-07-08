@@ -1,3 +1,5 @@
+@use'../utils/mixins.scss' as *;
+
 .button {
   display: block;
   padding: 15px;
@@ -12,8 +14,7 @@
   text-align: center;
   border-radius: 8px;
   text-decoration: none;
+  border: none;
 
-  &--primary {
-    background-color: #1b2129;
-  }
+  @include hover(background-color, #1b2129)
 }

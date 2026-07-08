@@ -26,6 +26,9 @@
     line-height: 140%;
     letter-spacing: 0.15px;
     color: #191919;
-    text-decoration: none;
+    text-decoration-color: transparent;
+    text-underline-offset: 4px;
+
+    @include hover(text-decoration-color, #1b2129);
   }
 }

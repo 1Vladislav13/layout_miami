@@ -1,3 +1,5 @@
+@use'../utils/mixins.scss' as *;
+
 .menu {
   box-sizing: border-box;
   padding: 0 20px 20px;
@@ -39,6 +41,9 @@
     letter-spacing: 2px;
     text-transform: uppercase;
     color: #1b2129;
+    text-decoration-color: transparent;
     text-underline-offset: 4px;
+
+    @include hover(text-decoration-color, #1b2129)
   }
 }
