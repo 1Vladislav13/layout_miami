@@ -44,7 +44,7 @@
   &__title {
     margin-bottom: 8px;
     font-size: 18px;
-    color: #1b2129;
+    color: $text-color;
     font-weight: 700;
   }
 
@@ -52,14 +52,14 @@
     font-weight: 400;
     font-size: 16px;
     line-height: 140%;
-    color: #1b2129;
+    color: $text-color;
     margin-bottom: 12px;
   }
 
   &__price {
     font-weight: 700;
     font-size: 16px;
-    color: #1b2129;
+    color: $text-color;
     font-family: Manrope, sans-serif;
   }
 }

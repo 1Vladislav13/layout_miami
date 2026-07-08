@@ -1,4 +1,4 @@
-@use'../utils/mixins.scss' as *;
+@use '../utils/mixins.scss' as *;
 
 .button {
   display: block;
@@ -16,5 +16,9 @@
   text-decoration: none;
   border: none;
 
-  @include hover(background-color, #1b2129)
+  @include hover(background-color, $hover-button-color);
+
+  &:active {
+    background-color: $active-button-color;
+  }
 }
