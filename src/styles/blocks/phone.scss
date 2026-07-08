@@ -12,9 +12,23 @@
     white-space: nowrap;
     position: absolute;
     transform: translateX(calc(-100% - 8px));
+
+    @include for-tablet {
+      transform: translateX(calc(-100% - 8px)) translateY(7px);
+    }
   }
 
   &:not(:hover) &__label {
     @include visually-hidden;
+  }
+
+  &__img {
+    width: 24px;
+    height: 24px;
+
+    @include for-tablet {
+      width: 32px;
+      height: 32px;
+    }
   }
 }
