@@ -1,7 +1,6 @@
 @use '../utils/mixins.scss' as *;
 
 .burger {
-
   &::before {
     content: '';
     display: inline-block;
@@ -33,13 +32,12 @@
   }
 
   &:hover {
-
     &::before {
       display: none;
     }
 
     &::after {
-      display: inline-block
+      display: inline-block;
     }
   }
 
